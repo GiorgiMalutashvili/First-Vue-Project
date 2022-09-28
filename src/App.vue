@@ -8,7 +8,7 @@
         </div>
       <NavigationComponent v-if="!mobileView" />
       </div>
-      <ContentComponent />
+      <ContentComponentt />
     </div>
   </div>
 </template>
@@ -16,14 +16,14 @@
 
 <script>
 import NavigationComponent from './components/MyNavigation.vue'
-import ContentComponent from './components/MyContent.vue'
+import ContentComponentt from './components/MyContent.vue'
 import NavigationMobileComp from './components/NavigationMobile.vue'
 
 export default {
   name: 'App',
   components:{
     NavigationComponent,
-    ContentComponent,
+    ContentComponentt,
     NavigationMobileComp,
   },
   data: () => {
